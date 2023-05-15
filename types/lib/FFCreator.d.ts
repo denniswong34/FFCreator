@@ -6,6 +6,7 @@ declare namespace FFCreatorSpace {
   interface FFCreatorConf extends ConfOptions {
     log?: boolean;
     audio?: FFAudioConf | string;
+    threads?: number;
   }
 
   interface FFCreatorEventMap {
